@@ -1,0 +1,11 @@
+<!ELEMENT theaters (theater+)>
+
+<!ELEMENT theater (type,difference,subtypes)>
+
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT difference (#PCDATA)>
+<!ELEMENT subtypes (subtype)?>
+<!ELEMENT subtype (#PCDATA)>
+
+<!ATTLIST theater id CDATA#REQUIRED>
+<!ATTLIST subtype id CDATA#REQUIRED>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding= 'utf-8'?>
+<course>
+    <title>Технологии семантического веба</title>
+    <authors>
+        <author id="1">Е.K. Липачёв</author>
+    </authors>
+    <students>
+        <student id="1">
+            <name>Нигматуллина</name>
+            <age>21</age>
+            <languages>
+                <language>Русский</language>
+                <language>Английский</language>
+            </languages>
+        </student>
+        <student id="2">
+            <name>Валиев</name>
+            <age>21</age>
+            <languages>
+                <language>Русский</language>
+                <language>Английский</language>
+            </languages>
+        </student>
+        <student id="3">
+            <name>Салимов</name>
+            <age>21</age>
+            <languages>
+                <language>Русский</language>
+                <language>Английский</language>
+            </languages>
+        </student>
+        <student id="4">
+            <name>Хусаинова</name>
+            <age>21</age>
+            <languages>
+                <language>Русский</language>
+                <language>Английский</language>
+            </languages>
+        </student>
+        <student id="5">
+            <name>Шамратов</name>
+            <age>21</age>
+            <languages>
+                <language>Русский</language>
+                <language>Английский</language>
+            </languages>
+        </student>
+        <student id="6">
+            <name>Тутынина</name>
+            <age>21</age>
+            <languages>
+                <language>Русский</language>
+                <language>Английский</language>
+            </languages>
+        </student>
+        <student id="7">
+            <name>Гаязов</name>
+            <age>21</age>
+            <languages>
+                <language>Русский</language>
+                <language>Английский</language>
+                <language>Французский</language>
+            </languages>
+        </student>
+        <student id="8">
+            <name>Лысенков</name>
+            <age>21</age>
+            <languages>
+                <language>Русский</language>
+                <language>Английский</language>
+                <language>Немецкий</language>
+            </languages>
+        </student>
+        <!--        <student id="9">-->
+        <!--            <name>??</name>-->
+        <!--            <age>21</age>-->
+        <!--        </student>-->
+    </students>
+</course>

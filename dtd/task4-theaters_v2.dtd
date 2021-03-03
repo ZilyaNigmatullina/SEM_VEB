@@ -1,0 +1,21 @@
+<!ELEMENT theaters (theater+)>
+
+        <!ELEMENT theater (name,type,location,foundation,arcitecture,capacity,director,artisticDirector,chiefConductor,chiefChoreografer,chiefChoirmaster,website)>
+
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT location (country, city)?>
+        <!ELEMENT country (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT foundation (#PCDATA)>
+        <!ELEMENT arcitecture (#PCDATA)>
+        <!ELEMENT capacity (#PCDATA)>
+        <!ELEMENT director (#PCDATA)>
+        <!ELEMENT artisticDirector (#PCDATA)>
+        <!ELEMENT chiefConductor (#PCDATA)>
+        <!ELEMENT chiefChoreografer (#PCDATA)>
+        <!ELEMENT chiefChoirmaster (#PCDATA)>
+        <!ELEMENT website (#PCDATA)>
+
+
+        <!ATTLIST theater id CDATA#REQUIRED>

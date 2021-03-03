@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding= 'utf-8'?>
+<!DOCTYPE theaters SYSTEM "task4-theaters_v2.dtd">
+<theaters>
+    <theater id="1">
+        <name>Ла Скала</name>
+        <type>Оперный</type>
+        <location>
+            <country>Италия</country>
+            <city>Милан</city>
+        </location>
+        <foundation>1778</foundation>
+        <arcitecture>Джузеппе Пьермарини</arcitecture>
+        <capacity>2030</capacity>
+        <director>Мария ди Фреда</director>
+        <artisticDirector>Александр Перейра</artisticDirector>
+        <chiefConductor>Рикардо Шайи</chiefConductor>
+        <chiefChoreografer>Махар Вазиев</chiefChoreografer>
+        <chiefChoirmaster>Бруно Казони</chiefChoirmaster>
+        <website>https://www.teatroallascala.org</website>
+    </theater>
+    <theater id="2">
+        <name>Сиднейский оперный театр</name>
+        <type>Оперный</type>
+        <location>
+            <country>Австралия</country>
+            <city>Сидней</city>
+        </location>
+        <foundation>1973</foundation>
+        <arcitecture>Йорн Утзон</arcitecture>
+        <capacity>5738</capacity>
+        <director>-</director>
+        <artisticDirector>-</artisticDirector>
+        <chiefConductor>-</chiefConductor>
+        <chiefChoreografer>-</chiefChoreografer>
+        <chiefChoirmaster>-</chiefChoirmaster>
+        <website>sydneyoperahouse.com</website>
+    </theater>
+    <theater id="3">
+        <name>Большой театр</name>
+        <type>Оперый и балета</type>
+        <location>
+            <country>Россия</country>
+            <city>Москва</city>
+        </location>
+        <foundation>1776</foundation>
+        <arcitecture>Осип Бове</arcitecture>
+        <capacity>1800</capacity>
+        <director>Владимир Урин</director>
+        <artisticDirector>Махар Вазиев</artisticDirector>
+        <chiefConductor>Туган Сохиев</chiefConductor>
+        <chiefChoreografer>Юрий Григорович</chiefChoreografer>
+        <chiefChoirmaster>Валерий Борисов</chiefChoirmaster>
+        <website>bolshoi.ru</website>
+    </theater>
+    <theater id="4">
+        <name>Дворец каталонской музыки</name>
+        <type>Культурный</type>
+        <location>
+            <country>Испания</country>
+            <city>Барселона</city>
+        </location>
+        <foundation>1908</foundation>
+        <arcitecture>Луис Доменек</arcitecture>
+        <capacity>2200</capacity>
+        <director>-</director>
+        <artisticDirector>-</artisticDirector>
+        <chiefConductor>-</chiefConductor>
+        <chiefChoreografer>-</chiefChoreografer>
+        <chiefChoirmaster>-</chiefChoirmaster>
+        <website>www.palaumusica.cat</website>
+    </theater>
+    <theater id="5">
+        <name>Венская государственная опера</name>
+        <type>Оперный</type>
+        <location>
+            <country>Австрия</country>
+            <city>Вена</city>
+        </location>
+        <foundation>1869</foundation>
+        <arcitecture>Август Зикард фон Зикардсбург</arcitecture>
+        <capacity>3000</capacity>
+        <director>Доминик Мейер</director>
+        <artisticDirector>-</artisticDirector>
+        <chiefConductor>-</chiefConductor>
+        <chiefChoreografer>-</chiefChoreografer>
+        <chiefChoirmaster>-</chiefChoirmaster>
+        <website>www.wiener-staatsoper.at</website>
+    </theater>
+    <theater id="6">
+        <name>Les Celestins</name>
+        <type>Культурный</type>
+        <location>
+            <country>Франция</country>
+            <city>Лион</city>
+        </location>
+        <foundation>1877</foundation>
+        <arcitecture></arcitecture>
+        <capacity>1000</capacity>
+        <director>-</director>
+        <artisticDirector>Чарльз Мончармонт</artisticDirector>
+        <chiefConductor>-</chiefConductor>
+        <chiefChoreografer>-</chiefChoreografer>
+        <chiefChoirmaster>-</chiefChoirmaster>
+        <website>www.theatredescelestins.com</website>
+    </theater>
+    <theater id="7">
+        <name>Метрополитен-опера</name>
+        <type>Оперный</type>
+        <location>
+            <country>США</country>
+            <city>Нью-Йорк</city>
+        </location>
+        <foundation>1880</foundation>
+        <arcitecture>Уоллес Харрисон</arcitecture>
+        <capacity>3800</capacity>
+        <director>Питер Гельб</director>
+        <artisticDirector>-</artisticDirector>
+        <chiefConductor>Ливайн</chiefConductor>
+        <chiefChoreografer>Йозеф Фриц</chiefChoreografer>
+        <chiefChoirmaster>Дональд Палумбе</chiefChoirmaster>
+        <website>www.metorchestramusicians.org</website>
+    </theater>
+    <theater id="8">
+        <name>Королевский оперный театр Convent Garden</name>
+        <type>Оперный</type>
+        <location>
+            <country>Великобритания</country>
+            <city>Лондон</city>
+        </location>
+        <foundation>1858</foundation>
+        <arcitecture>Эдвард Миддлтон Барри</arcitecture>
+        <capacity>2255</capacity>
+        <director>-</director>
+        <artisticDirector>-</artisticDirector>
+        <chiefConductor>-</chiefConductor>
+        <chiefChoreografer>-</chiefChoreografer>
+        <chiefChoirmaster>-</chiefChoirmaster>
+        <website>www.roh.org.uk</website>
+    </theater>
+    <theater id="9">
+        <name>Одеон Герода Аттика</name>
+        <type>Культурный</type>
+        <location>
+            <country>Греция</country>
+            <city>Афины</city>
+        </location>
+        <foundation>165 н.э.</foundation>
+        <arcitecture>-</arcitecture>
+        <capacity>5000</capacity>
+        <director>-</director>
+        <artisticDirector>-</artisticDirector>
+        <chiefConductor>-</chiefConductor>
+        <chiefChoreografer>-</chiefChoreografer>
+        <chiefChoirmaster>-</chiefChoirmaster>
+        <website>-</website>
+    </theater>
+    <theater id="10">
+        <name>Театр Чикаго</name>
+        <type>Культурный</type>
+        <location>
+            <country>США</country>
+            <city>Чикаго</city>
+        </location>
+        <foundation>1921</foundation>
+        <arcitecture>Корнелиус Рап</arcitecture>
+        <capacity>3600</capacity>
+        <director>-</director>
+        <artisticDirector>-</artisticDirector>
+        <chiefConductor>-</chiefConductor>
+        <chiefChoreografer>-</chiefChoreografer>
+        <chiefChoirmaster>-</chiefChoirmaster>
+        <website>www.chicago-theater.com</website>
+    </theater>
+
+</theaters>

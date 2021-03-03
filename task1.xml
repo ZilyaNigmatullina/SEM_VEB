@@ -1,0 +1,17 @@
+<?xml version="l.0" encoding= 'utf-8'?>
+<course>
+    <title> Технологии семантического веба</title>
+    <authors>
+        <author id="1"> Е.K. Липачёв</author>
+    </authors>
+    <students>
+        <student id="1">Нигматуллина</student>
+        <student id="2">Валиев</student>
+        <student id="3">Салимов</student>
+        <student id="4">Хусаинова</student>
+        <student id="5">Шамратов</student>
+        <student id="6">Тутынина</student>
+        <student id="7">Гаязов</student>
+        <student id="8">Лысенков</student>
+    </students>
+</course>
