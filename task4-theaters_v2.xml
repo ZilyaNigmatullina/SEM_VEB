@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding= 'utf-8'?>
+<?xml-stylesheet type='text/xsl' href='./xsl/task4-theaters_v2.xsl' ?>
 <!DOCTYPE theaters SYSTEM "task4-theaters_v2.dtd">
 <theaters>
     <theater id="1">
@@ -94,7 +95,7 @@
             <city>Лион</city>
         </location>
         <foundation>1877</foundation>
-        <arcitecture></arcitecture>
+        <arcitecture>-</arcitecture>
         <capacity>1000</capacity>
         <director>-</director>
         <artisticDirector>Чарльз Мончармонт</artisticDirector>
@@ -171,5 +172,4 @@
         <chiefChoirmaster>-</chiefChoirmaster>
         <website>www.chicago-theater.com</website>
     </theater>
-
 </theaters>
