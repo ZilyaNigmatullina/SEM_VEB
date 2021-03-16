@@ -34,7 +34,7 @@
         <chiefConductor>-</chiefConductor>
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
-        <website>sydneyoperahouse.com</website>
+        <website>https://www.sydneyoperahouse.com</website>
     </theater>
     <theater id="3">
         <name>Большой театр</name>
@@ -51,7 +51,7 @@
         <chiefConductor>Туган Сохиев</chiefConductor>
         <chiefChoreografer>Юрий Григорович</chiefChoreografer>
         <chiefChoirmaster>Валерий Борисов</chiefChoirmaster>
-        <website>bolshoi.ru</website>
+        <website>https://www.bolshoi.ru</website>
     </theater>
     <theater id="4">
         <name>Дворец каталонской музыки</name>
@@ -68,7 +68,7 @@
         <chiefConductor>-</chiefConductor>
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
-        <website>www.palaumusica.cat</website>
+        <website>https://www.palaumusica.cat</website>
     </theater>
     <theater id="5">
         <name>Венская государственная опера</name>
@@ -85,7 +85,7 @@
         <chiefConductor>-</chiefConductor>
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
-        <website>www.wiener-staatsoper.at</website>
+        <website>https://www.wiener-staatsoper.at</website>
     </theater>
     <theater id="6">
         <name>Les Celestins</name>
@@ -102,7 +102,7 @@
         <chiefConductor>-</chiefConductor>
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
-        <website>www.theatredescelestins.com</website>
+        <website>https://www.theatredescelestins.com</website>
     </theater>
     <theater id="7">
         <name>Метрополитен-опера</name>
@@ -119,7 +119,7 @@
         <chiefConductor>Ливайн</chiefConductor>
         <chiefChoreografer>Йозеф Фриц</chiefChoreografer>
         <chiefChoirmaster>Дональд Палумбе</chiefChoirmaster>
-        <website>www.metorchestramusicians.org</website>
+        <website>https://www.metorchestramusicians.org</website>
     </theater>
     <theater id="8">
         <name>Королевский оперный театр Convent Garden</name>
@@ -136,7 +136,7 @@
         <chiefConductor>-</chiefConductor>
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
-        <website>www.roh.org.uk</website>
+        <website>https://www.roh.org.uk</website>
     </theater>
     <theater id="9">
         <name>Одеон Герода Аттика</name>
@@ -170,6 +170,6 @@
         <chiefConductor>-</chiefConductor>
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
-        <website>www.chicago-theater.com</website>
+        <website>https://www.chicago-theater.com</website>
     </theater>
 </theaters>

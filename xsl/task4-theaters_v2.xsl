@@ -57,7 +57,7 @@
                                 <xsl:value-of select="chiefChoirmaster"/>
                             </td>
                             <td>
-                                <xsl:value-of select="website"/>
+                                <a href="{website}"><xsl:value-of select="website"/></a>
                             </td>
                         </tr>
                     </xsl:for-each>
