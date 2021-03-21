@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding= 'utf-8'?>
-<?xml-stylesheet type='text/xsl' href='./xsl/task4-theaters_v2.xsl' ?>
+<?xml-stylesheet type='text/xsl' href='./xsl/task5-theaters_v2.xsl' ?>
 <!DOCTYPE theaters SYSTEM "task4-theaters_v2.dtd">
 <theaters>
     <theater id="1">
@@ -18,6 +18,7 @@
         <chiefChoreografer>Махар Вазиев</chiefChoreografer>
         <chiefChoirmaster>Бруно Казони</chiefChoirmaster>
         <website>https://www.teatroallascala.org</website>
+        <image>./img/LaScala.jpg</image>
     </theater>
     <theater id="2">
         <name>Сиднейский оперный театр</name>
@@ -35,6 +36,7 @@
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
         <website>https://www.sydneyoperahouse.com</website>
+        <image>./img/SydneyOperaHouse.jpg</image>
     </theater>
     <theater id="3">
         <name>Большой театр</name>
@@ -52,6 +54,7 @@
         <chiefChoreografer>Юрий Григорович</chiefChoreografer>
         <chiefChoirmaster>Валерий Борисов</chiefChoirmaster>
         <website>https://www.bolshoi.ru</website>
+        <image>./img/Bolshoi.jpg</image>
     </theater>
     <theater id="4">
         <name>Дворец каталонской музыки</name>
@@ -69,6 +72,7 @@
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
         <website>https://www.palaumusica.cat</website>
+        <image>./img/PalauDeLaMusicaCatalana.jpg</image>
     </theater>
     <theater id="5">
         <name>Венская государственная опера</name>
@@ -86,6 +90,7 @@
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
         <website>https://www.wiener-staatsoper.at</website>
+        <image>./img/WienerStaatsoper.jfif</image>
     </theater>
     <theater id="6">
         <name>Les Celestins</name>
@@ -103,6 +108,7 @@
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
         <website>https://www.theatredescelestins.com</website>
+        <image>./img/LesCelestins.jpg</image>
     </theater>
     <theater id="7">
         <name>Метрополитен-опера</name>
@@ -120,6 +126,7 @@
         <chiefChoreografer>Йозеф Фриц</chiefChoreografer>
         <chiefChoirmaster>Дональд Палумбе</chiefChoirmaster>
         <website>https://www.metorchestramusicians.org</website>
+        <image>./img/MetropolitanOpera.jpg</image>
     </theater>
     <theater id="8">
         <name>Королевский оперный театр Convent Garden</name>
@@ -137,6 +144,7 @@
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
         <website>https://www.roh.org.uk</website>
+        <image>./img/ConventGarden.jpg</image>
     </theater>
     <theater id="9">
         <name>Одеон Герода Аттика</name>
@@ -154,6 +162,7 @@
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
         <website>-</website>
+        <image>./img/OdeonOfHerodesAtticus.jpg</image>
     </theater>
     <theater id="10">
         <name>Театр Чикаго</name>
@@ -171,5 +180,6 @@
         <chiefChoreografer>-</chiefChoreografer>
         <chiefChoirmaster>-</chiefChoirmaster>
         <website>https://www.chicago-theater.com</website>
+        <image>./img/ChicagoTheatre.jpg</image>
     </theater>
 </theaters>

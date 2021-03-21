@@ -1,6 +1,6 @@
 <!ELEMENT theaters (theater+)>
 
-        <!ELEMENT theater (name,type,location,foundation,arcitecture,capacity,director,artisticDirector,chiefConductor,chiefChoreografer,chiefChoirmaster,website)>
+        <!ELEMENT theater (name,type,location,foundation,arcitecture,capacity,director,artisticDirector,chiefConductor,chiefChoreografer,chiefChoirmaster,website,image)>
 
         <!ELEMENT name (#PCDATA)>
         <!ELEMENT type (#PCDATA)>
@@ -16,6 +16,7 @@
         <!ELEMENT chiefChoreografer (#PCDATA)>
         <!ELEMENT chiefChoirmaster (#PCDATA)>
         <!ELEMENT website (#PCDATA)>
+        <!ELEMENT image (#PCDATA)?>
 
 
         <!ATTLIST theater id CDATA#REQUIRED>
