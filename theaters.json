@@ -1,0 +1,186 @@
+{
+  "theaters": {
+    "theater": [
+      {
+        "name": "Ла Скала",
+        "type": "Оперный",
+        "location": {
+          "country": "Италия",
+          "city": "Милан"
+        },
+        "foundation": 1778,
+        "arcitecture": "Джузеппе Пьермарини",
+        "capacity": 2030,
+        "director": "Мария ди Фреда",
+        "artisticDirector": "Александр Перейра",
+        "chiefConductor": "Рикардо Шайи",
+        "chiefChoreografer": "Махар Вазиев",
+        "chiefChoirmaster": "Бруно Казони",
+        "website": "https://www.teatroallascala.org",
+        "image": "./img/LaScala.jpg"
+      },
+      {
+        "name": "Сиднейский оперный театр",
+        "type": "Оперный",
+        "location": {
+          "country": "Австралия",
+          "city": "Сидней"
+        },
+        "foundation": 1973,
+        "arcitecture": "Йорн Утзон",
+        "capacity": 5738,
+        "director": "-",
+        "artisticDirector": "-",
+        "chiefConductor": "-",
+        "chiefChoreografer": "-",
+        "chiefChoirmaster": "-",
+        "website": "https://www.sydneyoperahouse.com",
+        "image": "./img/SydneyOperaHouse.jpg"
+      },
+      {
+        "name": "Большой театр",
+        "type": "Оперый и балета",
+        "location": {
+          "country": "Россия",
+          "city": "Москва"
+        },
+        "foundation": 1776,
+        "arcitecture": "Осип Бове",
+        "capacity": 1800,
+        "director": "Владимир Урин",
+        "artisticDirector": "Махар Вазиев",
+        "chiefConductor": "Туган Сохиев",
+        "chiefChoreografer": "Юрий Григорович",
+        "chiefChoirmaster": "Валерий Борисов",
+        "website": "https://www.bolshoi.ru",
+        "image": "./img/Bolshoi.jpg"
+      },
+      {
+        "name": "Дворец каталонской музыки",
+        "type": "Культурный",
+        "location": {
+          "country": "Испания",
+          "city": "Барселона"
+        },
+        "foundation": 1908,
+        "arcitecture": "Луис Доменек",
+        "capacity": 2200,
+        "director": "-",
+        "artisticDirector": "-",
+        "chiefConductor": "-",
+        "chiefChoreografer": "-",
+        "chiefChoirmaster": "-",
+        "website": "https://www.palaumusica.cat",
+        "image": "./img/PalauDeLaMusicaCatalana.jpg"
+      },
+      {
+        "name": "Венская государственная опера",
+        "type": "Оперный",
+        "location": {
+          "country": "Австрия",
+          "city": "Вена"
+        },
+        "foundation": 1869,
+        "arcitecture": "Август Зикард фон Зикардсбург",
+        "capacity": 3000,
+        "director": "Доминик Мейер",
+        "artisticDirector": "-",
+        "chiefConductor": "-",
+        "chiefChoreografer": "-",
+        "chiefChoirmaster": "-",
+        "website": "https://www.wiener-staatsoper.at",
+        "image": "./img/WienerStaatsoper.jfif"
+      },
+      {
+        "name": "Les Celestins",
+        "type": "Культурный",
+        "location": {
+          "country": "Франция",
+          "city": "Лион"
+        },
+        "foundation": 1877,
+        "arcitecture": "-",
+        "capacity": 1000,
+        "director": "-",
+        "artisticDirector": "Чарльз Мончармонт",
+        "chiefConductor": "-",
+        "chiefChoreografer": "-",
+        "chiefChoirmaster": "-",
+        "website": "https://www.theatredescelestins.com",
+        "image": "./img/LesCelestins.jpg"
+      },
+      {
+        "name": "Метрополитен-опера",
+        "type": "Оперный",
+        "location": {
+          "country": "США",
+          "city": "Нью-Йорк"
+        },
+        "foundation": 1880,
+        "arcitecture": "Уоллес Харрисон",
+        "capacity": 3800,
+        "director": "Питер Гельб",
+        "artisticDirector": "-",
+        "chiefConductor": "Ливайн",
+        "chiefChoreografer": "Йозеф Фриц",
+        "chiefChoirmaster": "Дональд Палумбе",
+        "website": "https://www.metorchestramusicians.org",
+        "image": "./img/MetropolitanOpera.jpg"
+      },
+      {
+        "name": "Королевский оперный театр Convent Garden",
+        "type": "Оперный",
+        "location": {
+          "country": "Великобритания",
+          "city": "Лондон"
+        },
+        "foundation": 1858,
+        "arcitecture": "Эдвард Миддлтон Барри",
+        "capacity": 2255,
+        "director": "-",
+        "artisticDirector": "-",
+        "chiefConductor": "-",
+        "chiefChoreografer": "-",
+        "chiefChoirmaster": "-",
+        "website": "https://www.roh.org.uk",
+        "image": "./img/ConventGarden.jpg"
+      },
+      {
+        "name": "Одеон Герода Аттика",
+        "type": "Культурный",
+        "location": {
+          "country": "Греция",
+          "city": "Афины"
+        },
+        "foundation": "165 н.э.",
+        "arcitecture": "-",
+        "capacity": 5000,
+        "director": "-",
+        "artisticDirector": "-",
+        "chiefConductor": "-",
+        "chiefChoreografer": "-",
+        "chiefChoirmaster": "-",
+        "website": "-",
+        "image": "./img/OdeonOfHerodesAtticus.jpg"
+      },
+      {
+        "name": "Театр Чикаго",
+        "type": "Культурный",
+        "location": {
+          "country": "США",
+          "city": "Чикаго"
+        },
+        "foundation": 1921,
+        "arcitecture": "Корнелиус Рап",
+        "capacity": 3600,
+        "director": "-",
+        "artisticDirector": "-",
+        "chiefConductor": "-",
+        "chiefChoreografer": "-",
+        "chiefChoirmaster": "-",
+        "website": "https://www.chicago-theater.com",
+        "image": "./img/ChicagoTheatre.jpg"
+      }
+    ]
+  }
+}
