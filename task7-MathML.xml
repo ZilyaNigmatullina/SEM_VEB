@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <body>
+        <table border="1" width="500" align="center" style="font-size: 25px">
+            <tr align="center" style="background-color: darksalmon">
+                <td>Формулы</td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <msqrt>
+                            <mi>a</mi>
+                            <mo>+</mo>
+                            <mi>b</mi>
+                        </msqrt>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mfrac>
+                            <mi>a</mi>
+                            <mi>b</mi>
+                        </mfrac>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mroot>
+                            <mrow>
+                                <mi>a</mi>
+                                <mo>+</mo>
+                                <mi>d</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>b</mi>
+                                <mo>+</mo>
+                                <mi>c</mi>
+                            </mrow>
+                        </mroot>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mpadded width="+5em">
+                            <mi>a</mi>
+                            <mo>+</mo>
+                            <mi>b</mi>
+                        </mpadded>
+                        <mo>-</mo>
+                        <mi>c</mi>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mfenced>
+                            <mi>x</mi>
+                        </mfenced>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <msubsup>
+                            <mi>x</mi>
+                            <mn>z</mn>
+                            <mn>12</mn>
+                        </msubsup>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <munderover>
+                            <mi>X</mi>
+                            <mi>h</mi>
+                            <mi>t</mi>
+                        </munderover>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mmultiscripts>
+                            <mi>R</mi>
+                            <mrow>
+                                <mi>i</mi>
+                                <mi>k</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>j</mi>
+                            </mrow>
+                        </mmultiscripts>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <msup>
+                            <mrow>
+                                <mrow>
+                                    <mo class="MathClass-open">(</mo>
+                                    <mrow>
+                                        <mi>a</mi>
+                                        <mo class="MathClass-bin">+</mo>
+                                        <mi>b</mi>
+                                    </mrow>
+                                    <mo class="MathClass-close">)</mo>
+                                </mrow>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </msup>
+                        <mo class="MathClass-rel">=</mo>
+                        <msup>
+                            <mrow>
+                                <mi>a</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </msup>
+                        <mo class="MathClass-bin">+</mo>
+                        <mn>2</mn>
+                        <mi>a</mi>
+                        <mi>b</mi>
+                        <mo class="MathClass-bin">+</mo>
+                        <msup>
+                            <mrow>
+                                <mi>b</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </msup>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <msup>
+                            <mrow>
+                                <mo class='MathClass-open'>(</mo>
+                                <mrow>
+                                    <mo class="fMathClass-op">sin</mo>
+                                    <mrow>
+                                        <mi>x</mi>
+                                    </mrow>
+                                    <mo class="MathClass-close">)</mo>
+                                </mrow>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </msup>
+                        <mo class="MathClass-bin">+</mo>
+                        <msup>
+                            <mrow>
+                                <mo class="MathClass-open">(
+                                </mo>
+                                <mrow>
+                                    <mo class="MathClass-op">cos</mo>
+                                    <mrow>
+                                        <mi>x</mi>
+                                    </mrow>
+                                    <mo class="MathClass-close">)</mo>
+                                </mrow>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </msup>
+                        <mo class="MathClass-rel">=</mo>
+                        <mn>1</mn>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+                        <msub>
+                            <mrow>
+                                <mi>&#x2202;</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mrow>
+                            <mo class="MathClass-open">[</mo>
+                            <mrow>
+                                <mover accent="true">
+                                    <mrow>
+                                        <mo>&#x03B1;</mo>
+                                    </mrow>
+                                    <mo class="MathClass-op">&#x2192;</mo>
+                                </mover>
+                                <mo class="MathClass-punc">,</mo>
+                                <mover accent="true">
+                                    <mrow>
+                                        <mi>&#x03B2;</mi>
+                                    </mrow>
+                                    <mo class="MathClass-op">&#x2192;</mo>
+                                </mover>
+                            </mrow>
+                            <mo class="MathClass-close">]</mo>
+                        </mrow>
+                        <mo class="MathClass-rel">=</mo>
+                        <mover accent="true">
+                            <mrow>
+                                <mi>&#x03B3;</mi>
+                            </mrow>
+                            <mo class="MathClass-op">&#x2192;</mo>
+                        </mover>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mfenced separators="" open="(" close=")">
+                            <mrow>
+                                <mtable>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>A</mi>
+                                        </mtd>
+                                        <mtd>
+                                            <mi>B</mi>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>C</mi>
+                                        </mtd>
+                                        <mtd>
+                                            <mi>D</mi>
+                                        </mtd>
+                                    </mtr>
+                                </mtable>
+                            </mrow>
+                        </mfenced>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mtable>
+                            <mtr>
+                                <mtd>
+                                    <mi>A</mi>
+                                </mtd>
+                                <mtd>
+                                    <mover>
+                                        <mrow>
+                                            <mo class="MathClass-rel">&#x2192;</mo>
+                                        </mrow>
+                                        <mrow>
+                                            <mi>f</mi>
+                                        </mrow>
+                                    </mover>
+                                </mtd>
+                                <mtd>
+                                    <mi>B</mi>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mi>&#x2193;</mi>
+                                </mtd>
+                                <mtd></mtd>
+                                <mtd>
+                                    <mi>&#x2191;</mi>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mi>C</mi>
+                                </mtd>
+                                <mtd>
+                                    <munder>
+                                        <mrow>
+                                            <mo class="MathClass-rel">&#x2192;</mo>
+                                        </mrow>
+                                        <mrow>
+                                            <mi>g</mi>
+                                        </mrow>
+                                    </munder>
+                                </mtd>
+                                <mtd>
+                                    <mi>D</mi>
+                                </mtd>
+                            </mtr>
+                        </mtable>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mo class="MathClass-rel">&#x222B;</mo>
+                        <mfenced separators=''>
+                            <mn>5</mn>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mn>2</mn>
+                            <mi>sin</mi>
+                            <mfenced separators=''>
+                                <mi>x</mi>
+                            </mfenced>
+                        </mfenced>
+                        <mi>dx</mi>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <munderover>
+                            <mo>&#x222B;</mo>
+                            <mi>a</mi>
+                            <mi>b</mi>
+                        </munderover>
+                        <mfenced separators=''>
+                            <mn>5</mn>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mn>2</mn>
+                            <mi>sin</mi>
+                            <mfenced separators=''>
+                                <mi>x</mi>
+                            </mfenced>
+                        </mfenced>
+                        <mi>dx</mi>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+                        <munderover>
+                            <mo>&#x2211;</mo>
+                            <mrow>
+                                <mi>i</mi>
+                                <mo>=</mo>
+                                <mn>1</mn>
+                            </mrow>
+                            <mi>n</mi>
+                        </munderover>
+                        <mfenced separators=''>
+                            <msub>
+                                <mi>a</mi>
+                                <mi>i</mi>
+                            </msub>
+                        </mfenced>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mi>y</mi>
+                        <mo>=</mo>
+                        <mroot>
+                            <msup>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                            </msup>
+                            <mn>3</mn>
+                        </mroot>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mtable>
+                            <mtr>
+                                <mtd>
+                                    <mo>&#x222B;</mo>
+                                    <msup>
+                                        <mi>e</mi>
+                                        <mi>x</mi>
+                                    </msup>
+                                    <mi>dx</mi>
+                                </mtd>
+                                <mtd>
+                                    <mo>=</mo>
+                                </mtd>
+                                <mtd>
+                                    <msup>
+                                        <mi>e</mi>
+                                        <mi>x</mi>
+                                    </msup>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mo>&#x222B;</mo>
+                                    <msup>
+                                        <mi>a</mi>
+                                        <mi>x</mi>
+                                    </msup>
+                                    <mi>dx</mi>
+                                </mtd>
+                                <mtd>
+                                    <mo>=</mo>
+                                </mtd>
+                                <mtd>
+                                    <mfrac>
+                                        <msup>
+                                            <mi>a</mi>
+                                            <mi>x</mi>
+                                        </msup>
+                                        <mrow>
+                                            <mi>ln</mi>
+                                            <mi>a</mi>
+                                        </mrow>
+                                    </mfrac>
+                                </mtd>
+                            </mtr>
+                        </mtable>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mover>
+                            <mi>v</mi>
+                            <mo>&#x2192;</mo>
+                        </mover>
+                        <mo>=</mo>
+                        <mfenced>
+                            <msub>
+                                <mi>v</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <msub>
+                                <mi>v</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <msub>
+                                <mi>v</mi>
+                                <mn>3</mn>
+                            </msub>
+                        </mfenced>
+                    </math>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mi>det A</mi>
+                        <mo>=</mo>
+                        <mfenced open='|' close='|'>
+                            <mtable>
+                                <mtr>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mn>1</mn>
+                                                <mn>1</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mn>1</mn>
+                                                <mn>2</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                    <mtd>
+                                        <mi>&#x2026;</mi>
+                                    </mtd>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mn>1</mn>
+                                                <mi>n</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                </mtr>
+                                <mtr>
+                                    <mtd></mtd>
+                                    <mtd>
+                                        <mi>&#x22ee;</mi>
+                                    </mtd>
+                                </mtr>
+                                <mtr mathcolor='#00cc00'>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>j</mi>
+                                                <mn>1</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>j</mi>
+                                                <mn>2</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                    <mtd>
+                                        <mi>&#x2026;</mi>
+                                    </mtd>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>j</mi>
+                                                <mi>n</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                </mtr>
+                                <mtr>
+                                    <mtd></mtd>
+                                    <mtd>
+                                        <mi>&#x22ee;</mi>
+                                    </mtd>
+                                </mtr>
+                                <mtr mathcolor='#0000cc'>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>k</mi>
+                                                <mn>1</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>k</mi>
+                                                <mn>2</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                    <mtd>
+                                        <mi>&#x2026;</mi>
+                                    </mtd>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>k</mi>
+                                                <mi>n</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                </mtr>
+                                <mtr>
+                                    <mtd></mtd>
+                                    <mtd>
+                                        <mi>&#x22ee;</mi>
+                                    </mtd>
+                                </mtr>
+                                <mtr>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>n</mi>
+                                                <mn>1</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>n</mi>
+                                                <mn>2</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                    <mtd>
+                                        <mi>&#x2026;</mi>
+                                    </mtd>
+                                    <mtd>
+                                        <msub>
+                                            <mi>a</mi>
+                                            <mrow>
+                                                <mi>n</mi>
+                                                <mi>n</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mtd>
+                                </mtr>
+                            </mtable>
+                        </mfenced>
+                    </math>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
