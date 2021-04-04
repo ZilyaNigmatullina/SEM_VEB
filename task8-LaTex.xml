@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <body>
-        <h3>Функция Грина задачи Дирихле для уравнения Лапласа</h3>
+        <h3 align="center">Функция Грина задачи Дирихле для уравнения Лапласа</h3>
         <div style="font-style: italic">
             <p>Функцией Грина задачи Дирихле для уравнения Лапласа в области D называется функция
                 <math xmlns="http://www.w3.org/1998/Math/MathML">
