@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <body>
+        <h3>Функция Грина задачи Дирихле для уравнения Лапласа</h3>
+        <div style="font-style: italic">
+            <p>Функцией Грина задачи Дирихле для уравнения Лапласа в области D называется функция
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>G</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mstyle>
+                </math>
+                двух точек
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>&#x2208;</mo>
+                        <mover>
+                            <mrow>
+                                <mi>D</mi>
+                            </mrow>
+                            <mo>&#xAF;</mo>
+                        </mover>
+                    </mstyle>
+                </math>
+                , обладающая свойствами:
+            </p>
+            <p>1) она имеет вид</p>
+            <p align="center">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>G</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mi>E</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow>
+                            <mi>g</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>x</mi>
+                                <mo>,</mo>
+                                <mi>&#x3BE;</mi>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                    </mstyle>
+                </math>
+            </p>
+            <p>
+                , где
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>E</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mstyle>
+                </math>
+                - элементарное решение уравнения Лапласа, а
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mrow>
+                            <mi>g</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>x</mi>
+                                <mo>,</mo>
+                                <mi>&#x3BE;</mi>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                    </mstyle>
+                </math>
+                гармоническая функция как по
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>x</mi>
+                        <mo>&#x2208;</mo>
+                        <mi>D</mi>
+                    </mstyle>
+                </math>
+                ,
+                так и по
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>&#x3BE;</mi>
+                        <mo>&#x2208;</mo>
+                        <mi>D</mi>
+                    </mstyle>
+                </math>
+                , и
+            </p>
+            <p>2) когда точка x или
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>&#x3BE;</mi>
+                    </mstyle>
+                </math>
+                лежит на
+                границе S области D, то
+            </p>
+            <p align="center">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>G</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>0</mn>
+                    </mstyle>
+                </math>
+            </p>
+        </div>
+        <p>Покажем, что
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mn>0</mn>
+                    <mo>&#x2264;</mo>
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>&lt;</mo>
+                    <mi>E</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mstyle>
+            </math>
+            всюду в
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mover>
+                        <mrow>
+                            <mi>D</mi>
+                        </mrow>
+                        <mo>&#xAF;</mo>
+                    </mover>
+                </mstyle>
+            </math>
+            .
+        </p>
+        <p>1) Обозначим через
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mi>D</mi>
+                        <mrow>
+                            <mi>&#x3B4;</mi>
+                        </mrow>
+                    </msub>
+                </mstyle>
+            </math>
+            часть области D, лежащую вне шара
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mrow>
+                        <mo>|</mo>
+                        <mi>y</mi>
+                        <mo>-</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>|</mo>
+                    </mrow>
+                    <mo>&#x2264;</mo>
+                    <mi>&#x3B4;</mi>
+                    <mo>,</mo>
+                    <mo>&#xA0;&#xA0;</mo>
+                    <mi>&#x3BE;</mi>
+                    <mo>&#x2208;</mo>
+                    <mi>D</mi>
+                </mstyle>
+            </math>
+            ,
+            достаточно малого радиуса
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>&#x3B4;</mi>
+                </mstyle>
+            </math>
+            . Так как
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <munder>
+                        <mo>lim</mo>
+                        <mrow>
+                            <mi>x</mi>
+                            <mo>&#x2192;</mo>
+                            <mi>&#x3BE;</mi>
+                        </mrow>
+                    </munder>
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mo>+</mo>
+                    <mo>&#x221E;</mo>
+                </mstyle>
+            </math>
+            , то при достаточно малом
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>&#x3B4;</mi>
+                </mstyle>
+            </math>
+            имеем
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>&gt;</mo>
+                    <mn>0</mn>
+                </mstyle>
+            </math>
+            , когда
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mrow>
+                        <mo>|</mo>
+                        <mi>x</mi>
+                        <mo>-</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>|</mo>
+                    </mrow>
+                    <mo>&#x2264;</mo>
+                    <mi>&#x3B4;</mi>
+                </mstyle>
+            </math>
+            . Следовательно, на границе области
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mi>D</mi>
+                        <mrow>
+                            <mi>&#x3B4;</mi>
+                        </mrow>
+                    </msub>
+                </mstyle>
+            </math>
+            имеем
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>&#x2265;</mo>
+                    <mn>0</mn>
+                </mstyle>
+            </math>
+            и, стало быть, в силу принципа экстремума,
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>&#x2265;</mo>
+                    <mn>0</mn>
+                </mstyle>
+            </math>
+            для всех
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>x</mi>
+                    <mo>&#x2208;</mo>
+                    <msub>
+                        <mi>D</mi>
+                        <mrow>
+                            <mi>&#x3B4;</mi>
+                        </mrow>
+                    </msub>
+                </mstyle>
+            </math>
+            . Отсюда заключаем, что
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>&#x2265;</mo>
+                    <mn>0</mn>
+                </mstyle>
+            </math>
+            всюду в
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mover>
+                        <mrow>
+                            <mi>D</mi>
+                        </mrow>
+                        <mo>&#xAF;</mo>
+                    </mover>
+                </mstyle>
+            </math>
+            .
+        </p>
+        <p>2) Функция
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mrow>
+                        <mi>g</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>-</mo>
+                    <mi>E</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mstyle>
+            </math>
+            гармоническая в области D и равна
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mo>-</mo>
+                    <mi>E</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>&lt;</mo>
+                    <mn>0</mn>
+                </mstyle>
+            </math>
+            на S.
+            Следовательно, по принципу экстремума для гармонических функций,
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mrow>
+                        <mi>g</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                    <mo>&lt;</mo>
+                    <mn>0</mn>
+                </mstyle>
+            </math>
+            или
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>&lt;</mo>
+                    <mi>E</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mstyle>
+            </math>
+            в
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mover>
+                        <mrow>
+                            <mi>D</mi>
+                        </mrow>
+                        <mo>&#xAF;</mo>
+                    </mover>
+                </mstyle>
+            </math>
+            .
+        </p>
+        <p style="font-style: italic">Функция Грина G(x, y) симметрична относительно точек x и y.</p>
+        <p>
+            Чтобы обнаружить этот факт, лежащие в области D точки x и y удалим из
+            этой области вместе с замкнутыми шарами
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>d</mi>
+                    <mo>:</mo>
+                    <mrow>
+                        <mo>|</mo>
+                        <mi>z</mi>
+                        <mo>-</mo>
+                        <mi>x</mi>
+                        <mo>|</mo>
+                    </mrow>
+                    <mo>&#x2264;</mo>
+                    <mi>&#x3B4;</mi>
+                </mstyle>
+            </math>
+            и
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>d</mi>
+                    <mo>&#x2032;</mo>
+                    <mo>:</mo>
+                    <mrow>
+                        <mo>|</mo>
+                        <mi>z</mi>
+                        <mo>-</mo>
+                        <mi>y</mi>
+                        <mo>|</mo>
+                    </mrow>
+                    <mo>&#x2264;</mo>
+                    <mi>&#x3B4;</mi>
+                </mstyle>
+            </math>
+            достаточно
+            малого
+            радиуса
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>&#x3B4;</mi>
+                </mstyle>
+            </math>
+            и оставшуюся часть области D обозначим через
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mi>D</mi>
+                        <mrow>
+                            <mi>&#x3B4;</mi>
+                        </mrow>
+                    </msub>
+                </mstyle>
+            </math>
+            (см. рис.).
+        </p>
+        <img style="width: 400px; height: 200px" align="center" src="./img/1.PNG"/>
+        <p>Функции
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>v</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>,</mo>
+                        <mi>y</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>&#x438;</mo>
+                    <mi>u</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>,</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mstyle>
+            </math>
+            гармоничны в области D вне d' и d
+            соответственно. Применим для области
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mi>D</mi>
+                        <mrow>
+                            <mi>&#x3B4;</mi>
+                        </mrow>
+                    </msub>
+                </mstyle>
+            </math>
+            формулу
+        </p>
+        <p align="center">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mo>&#x222B;</mo>
+                        <mi>S</mi>
+                    </msub>
+                    <mrow>
+                        <mo>[</mo>
+                        <mrow>
+                            <mo>{</mo>
+                            <mi>v</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>y</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>u</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>y</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>y</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>-</mo>
+                            <mi>u</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>y</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>v</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>y</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>y</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>}</mo>
+                        </mrow>
+                        <mo>]</mo>
+                    </mrow>
+                    <mi>d</mi>
+                    <msub>
+                        <mi>s</mi>
+                        <mi>y</mi>
+                    </msub>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                </mstyle>
+            </math>
+            .
+        </p>
+        <p>Будем иметь</p>
+        <p align="center">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mo>&#x222B;</mo>
+                        <mi>S</mi>
+                    </msub>
+                    <mrow>
+                        <mo>[</mo>
+                        <mrow>
+                            <mo>{</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>z</mi>
+                                <mo>,</mo>
+                                <mi>y</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>G</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>z</mi>
+                                        <mo>,</mo>
+                                        <mi>x</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>z</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>-</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>z</mi>
+                                <mo>,</mo>
+                                <mi>x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>G</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>z</mi>
+                                        <mo>,</mo>
+                                        <mi>y</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>z</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>}</mo>
+                        </mrow>
+                        <mo>]</mo>
+                    </mrow>
+                    <mi>d</mi>
+                    <msub>
+                        <mi>s</mi>
+                        <mi>z</mi>
+                    </msub>
+                    <mo>=</mo>
+                    <mrow>
+                        <mo>(</mo>
+                        <mrow>
+                            <mo>{</mo>
+                            <msub>
+                                <mo>&#x222B;</mo>
+                                <mrow>
+                                    <mi>C</mi>
+                                </mrow>
+                            </msub>
+                            <mo>+</mo>
+                            <msub>
+                                <mo>&#x222B;</mo>
+                                <mrow>
+                                    <mi>C</mi>
+                                    <mo>&#x2032;</mo>
+                                </mrow>
+                            </msub>
+                            <mo>}</mo>
+                        </mrow>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow>
+                        <mo>[</mo>
+                        <mrow>
+                            <mo>{</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>z</mi>
+                                <mo>,</mo>
+                                <mi>y</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>G</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>z</mi>
+                                        <mo>,</mo>
+                                        <mi>x</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>z</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>-</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>z</mi>
+                                <mo>,</mo>
+                                <mi>x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>G</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>z</mi>
+                                        <mo>,</mo>
+                                        <mi>y</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>z</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>}</mo>
+                        </mrow>
+                        <mo>]</mo>
+                    </mrow>
+                    <mi>d</mi>
+                    <msub>
+                        <mi>s</mi>
+                        <mi>z</mi>
+                    </msub>
+                </mstyle>
+            </math>
+            ,
+        </p>
+        <p>
+            где
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mi>v</mi>
+                        <mi>z</mi>
+                    </msub>
+                </mstyle>
+            </math>
+            — внешняя
+            нормаль в
+            точке z на S и на сферах
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>C</mi>
+                    <mo>:</mo>
+                    <mrow>
+                        <mo>|</mo>
+                        <mi>z</mi>
+                        <mo>-</mo>
+                        <mi>x</mi>
+                        <mo>|</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>&#x3B4;</mi>
+                    <mo>,</mo>
+                    <mi>C</mi>
+                    <mo>&#x2032;</mo>
+                    <mo>:</mo>
+                    <mrow>
+                        <mo>|</mo>
+                        <mi>z</mi>
+                        <mo>-</mo>
+                        <mi>y</mi>
+                        <mo>|</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>&#x3B4;</mi>
+                </mstyle>
+            </math>
+            . Эту формулу в силу равенств
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>,</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>,</mo>
+                        <mi>y</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                    <mo>,</mo>
+                    <mo>&#xA0;&#xA0;</mo>
+                    <mi>z</mi>
+                    <mo>&#x2208;</mo>
+                    <mi>S</mi>
+                </mstyle>
+            </math>
+            , можно переписать в виде
+        </p>
+        <p align="center">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mo>&#x222B;</mo>
+                        <mrow>
+                            <mi>C</mi>
+                        </mrow>
+                    </msub>
+                    <mrow>
+                        <mo>[</mo>
+                        <mrow>
+                            <mo>{</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>z</mi>
+                                <mo>,</mo>
+                                <mi>y</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>G</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>z</mi>
+                                        <mo>,</mo>
+                                        <mi>x</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>z</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>-</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>z</mi>
+                                <mo>,</mo>
+                                <mi>x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>G</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>z</mi>
+                                        <mo>,</mo>
+                                        <mi>y</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>z</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>}</mo>
+                        </mrow>
+                        <mo>]</mo>
+                    </mrow>
+                    <mi>d</mi>
+                    <msub>
+                        <mi>s</mi>
+                        <mi>z</mi>
+                    </msub>
+                    <mo>=</mo>
+                    <msub>
+                        <mo>&#x222B;</mo>
+                        <mrow>
+                            <mi>C</mi>
+                            <mo>&#x2032;</mo>
+                        </mrow>
+                    </msub>
+                    <mrow>
+                        <mo>[</mo>
+                        <mrow>
+                            <mo>{</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>z</mi>
+                                <mo>,</mo>
+                                <mi>x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>G</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>z</mi>
+                                        <mo>,</mo>
+                                        <mi>y</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>z</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>-</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>z</mi>
+                                <mo>,</mo>
+                                <mi>y</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <mi>G</mi>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mi>z</mi>
+                                        <mo>,</mo>
+                                        <mi>x</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </mrow>
+                                <mrow>
+                                    <mo>&#x2202;</mo>
+                                    <msub>
+                                        <mi>v</mi>
+                                        <mi>z</mi>
+                                    </msub>
+                                </mrow>
+                            </mfrac>
+                            <mo>}</mo>
+                        </mrow>
+                        <mo>]</mo>
+                    </mrow>
+                    <mi>d</mi>
+                    <msub>
+                        <mi>s</mi>
+                        <mi>z</mi>
+                    </msub>
+                </mstyle>
+            </math>
+            .
+        </p>
+        <p>
+            (замена data-mathml="
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>x</mi>
+                    <mo>&#x2194;</mo>
+                    <mi>y</mi>
+                </mstyle>
+            </math>
+            " меняет знак
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <msub>
+                        <mo>&#x222B;</mo>
+                        <mrow>
+                            <mi>C</mi>
+                            <mo>&#x2032;</mo>
+                        </mrow>
+                    </msub>
+                </mstyle>
+            </math>
+            )
+        </p>
+        <p>Отсюда с учетом того, что</p>
+        <p align="center">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>,</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>E</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>,</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>+</mo>
+                    <mrow>
+                        <mi>g</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>z</mi>
+                            <mo>,</mo>
+                            <mi>x</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                    <mo>,</mo>
+                    <mo>&#xA0;&#xA0;</mo>
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>,</mo>
+                        <mi>y</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>E</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>z</mi>
+                        <mo>,</mo>
+                        <mi>y</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>+</mo>
+                    <mrow>
+                        <mi>g</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>z</mi>
+                            <mo>,</mo>
+                            <mi>y</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                </mstyle>
+            </math>
+            ,
+        </p>
+        <p>
+            где
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mrow>
+                        <mi>g</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>z</mi>
+                            <mo>,</mo>
+                            <mi>x</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                </mstyle>
+            </math>
+            и
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mrow>
+                        <mi>g</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>z</mi>
+                            <mo>,</mo>
+                            <mi>y</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                </mstyle>
+            </math>
+            — гармонические функции, в пределе при
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>&#x3B4;</mi>
+                    <mo>&#x2192;</mo>
+                    <mn>0</mn>
+                    <mo>,</mo>
+                </mstyle>
+            </math>
+            получаем
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>y</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>y</mi>
+                        <mo>,</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mstyle>
+            </math>
+            ,
+            что и требовалось доказать.
+        </p>
+        <div style="font-style: italic">
+            <p>Если в интегральном представлении гармонических функций</p>
+            <p align="center">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>u</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                            <mrow>
+                                <msub>
+                                    <mi>&#x3C9;</mi>
+                                    <mi>n</mi>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <msub>
+                            <mo>&#x222B;</mo>
+                            <mi>S</mi>
+                        </msub>
+                        <mi>E</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>y</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mfrac>
+                            <mrow>
+                                <mo>&#x2202;</mo>
+                                <mi>u</mi>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mi>y</mi>
+                                    <mo>)</mo>
+                                </mrow>
+                            </mrow>
+                            <mrow>
+                                <mo>&#x2202;</mo>
+                                <msub>
+                                    <mi>v</mi>
+                                    <mi>y</mi>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <mi>d</mi>
+                        <msub>
+                            <mi>s</mi>
+                            <mi>y</mi>
+                        </msub>
+                        <mo>-</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                            <mrow>
+                                <msub>
+                                    <mi>&#x3C9;</mi>
+                                    <mi>n</mi>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <msub>
+                            <mo>&#x222B;</mo>
+                            <mi>S</mi>
+                        </msub>
+                        <mi>u</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>y</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mfrac>
+                            <mrow>
+                                <mo>&#x2202;</mo>
+                                <mi>E</mi>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mi>x</mi>
+                                    <mo>,</mo>
+                                    <mi>y</mi>
+                                    <mo>)</mo>
+                                </mrow>
+                            </mrow>
+                            <mrow>
+                                <mo>&#x2202;</mo>
+                                <msub>
+                                    <mi>v</mi>
+                                    <mi>y</mi>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <mi>d</mi>
+                        <msub>
+                            <mi>s</mi>
+                            <mi>y</mi>
+                        </msub>
+                    </mstyle>
+                </math>
+            </p>
+            <p>
+                примем, что u(x) — решение задачи Дирихле для уравнения Лапласа, и вместо E(x, y) возьмем
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>G</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mstyle>
+                </math>
+                ,
+                то
+                получаем (первое слагаемое равно нулю, так как
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>G</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>,</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>0</mn>
+                    </mstyle>
+                </math>
+                когда точка
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>&#x3BE;</mi>
+                    </mstyle>
+                </math>
+                лежит на границе S области D):
+            </p>
+            <p align="center">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>u</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mo>-</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                            <mrow>
+                                <msub>
+                                    <mi>&#x3C9;</mi>
+                                    <mi>n</mi>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <msub>
+                            <mo>&#x222B;</mo>
+                            <mi>S</mi>
+                        </msub>
+                        <mi>&#x3C6;</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>&#x3BE;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mfrac>
+                            <mrow>
+                                <mo>&#x2202;</mo>
+                                <mi>G</mi>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mi>x</mi>
+                                    <mo>,</mo>
+                                    <mi>&#x3BE;</mi>
+                                    <mo>)</mo>
+                                </mrow>
+                            </mrow>
+                            <mrow>
+                                <mo>&#x2202;</mo>
+                                <msub>
+                                    <mi>v</mi>
+                                    <mrow>
+                                        <mi>&#x3BE;</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <mi>d</mi>
+                        <msub>
+                            <mi>s</mi>
+                            <mrow>
+                                <mi>&#x3BE;</mi>
+                            </mrow>
+                        </msub>
+                    </mstyle>
+                </math>
+                ,
+            </p>
+            <p>
+                где
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mi>&#x3C6;</mi>
+                    </mstyle>
+                </math>
+                - заданная на S действительная непрерывная функция. Когда функция Грина известна, эта формула
+                дает
+                решение задачи Дирихле в следующей постановке: ищется гармоническая в области D функция u(x) непрерывная
+                в
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <mover>
+                            <mrow>
+                                <mi>D</mi>
+                            </mrow>
+                            <mo>&#xAF;</mo>
+                        </mover>
+                    </mstyle>
+                </math>
+                и удовлетворяющая краевому условию
+            </p>
+            <p align="center">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mstyle displaystyle="true">
+                        <munder>
+                            <mo>lim</mo>
+                            <mrow>
+                                <mi>x</mi>
+                                <mo>&#x2192;</mo>
+                                <msub>
+                                    <mi>x</mi>
+                                    <mn>0</mn>
+                                </msub>
+                            </mrow>
+                        </munder>
+                        <mi>u</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mi>&#x3C6;</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <msub>
+                                <mi>x</mi>
+                                <mn>0</mn>
+                            </msub>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>,</mo>
+                        <mo>&#xA0;&#xA0;</mo>
+                        <mi>x</mi>
+                        <mo>&#x2208;</mo>
+                        <mi>D</mi>
+                        <mo>,</mo>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>0</mn>
+                        </msub>
+                        <mo>&#x2208;</mo>
+                        <mi>S</mi>
+                    </mstyle>
+                </math>
+                .
+            </p>
+        </div>
+        <p>Гармоничность представленной формулой
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>u</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mo>-</mo>
+                    <mfrac>
+                        <mrow>
+                            <mn>1</mn>
+                        </mrow>
+                        <mrow>
+                            <msub>
+                                <mi>&#x3C9;</mi>
+                                <mi>n</mi>
+                            </msub>
+                        </mrow>
+                    </mfrac>
+                    <msub>
+                        <mo>&#x222B;</mo>
+                        <mi>S</mi>
+                    </msub>
+                    <mi>&#x3C6;</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mfrac>
+                        <mrow>
+                            <mo>&#x2202;</mo>
+                            <mi>G</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi>x</mi>
+                                <mo>,</mo>
+                                <mi>&#x3BE;</mi>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                        <mrow>
+                            <mo>&#x2202;</mo>
+                            <msub>
+                                <mi>v</mi>
+                                <mrow>
+                                    <mi>&#x3BE;</mi>
+                                </mrow>
+                            </msub>
+                        </mrow>
+                    </mfrac>
+                    <mi>d</mi>
+                    <msub>
+                        <mi>s</mi>
+                        <mrow>
+                            <mi>&#x3BE;</mi>
+                        </mrow>
+                    </msub>
+                </mstyle>
+            </math>
+            функции u(x) следует из гармоничности функции Грина
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>G</mi>
+                    <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>&#x3BE;</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mstyle>
+            </math>
+            по x при
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mstyle displaystyle="true">
+                    <mi>x</mi>
+                    <mo>&#x2260;</mo>
+                    <mi>&#x3BE;</mi>
+                </mstyle>
+            </math>
+            .
+        </p>
+    </body>
+</html>
